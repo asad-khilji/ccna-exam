@@ -98,6 +98,188 @@
     "videoQuery": "CCNA Jeremy IT Lab Cabling and interfaces"
   },
   {
+    "id": 29,
+    "unit": "Network fundamentals",
+    "title": "1.1 · Network components",
+    "summary": "Routers route IP; L2 switches forward frames; L3 switches route; NGFW/IPS inspect threats; APs connect clients; controllers manage devices; endpoints consume services, servers provide them; PoE supplies power.",
+    "question": "Which feature powers an AP through Ethernet?",
+    "answers": [
+      "PoE",
+      "NAT",
+      "OSPF"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Network components"
+  },
+  {
+    "id": 30,
+    "unit": "Network fundamentals",
+    "title": "1.2 · Network architectures",
+    "summary": "Two-tier collapses core and distribution; three-tier separates access, distribution and core. Spine-leaf provides predictable data-center paths; WAN links sites; SOHO is small-scale; cloud and on-premises differ in hosting.",
+    "question": "Which architecture connects each leaf to every spine?",
+    "answers": [
+      "Spine-leaf",
+      "SOHO",
+      "Three-tier campus"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Network architectures"
+  },
+  {
+    "id": 31,
+    "unit": "Network fundamentals",
+    "title": "1.3 · Physical media",
+    "summary": "Single-mode fiber supports long distances; multimode typically shorter distances; copper has electrical limits. Shared Ethernet is a collision domain; full-duplex point-to-point links avoid collisions.",
+    "question": "Choose media for a 10 km optical link.",
+    "answers": [
+      "Single-mode fiber",
+      "Typical multimode fiber",
+      "100 m copper"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Physical media"
+  },
+  {
+    "id": 32,
+    "unit": "Network fundamentals",
+    "title": "1.4 · Interface diagnostics",
+    "summary": "CRC errors can indicate physical problems; late collisions can indicate duplex mismatch; compare speed, duplex, cable and counters.",
+    "question": "One side is full duplex, the other half duplex. What should you check first?",
+    "answers": [
+      "Duplex negotiation",
+      "DNS record",
+      "OSPF area"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Interface diagnostics"
+  },
+  {
+    "id": 33,
+    "unit": "Network fundamentals",
+    "title": "1.5 · TCP versus UDP",
+    "summary": "TCP provides ordered reliable streams, acknowledgments and flow control; UDP is connectionless and has lower overhead.",
+    "question": "Which transport suits latency-sensitive voice where retransmission is undesirable?",
+    "answers": [
+      "UDP",
+      "TCP",
+      "ARP"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA TCP versus UDP"
+  },
+  {
+    "id": 34,
+    "unit": "Network fundamentals",
+    "title": "1.6 · IPv4 subnetting",
+    "summary": "A /27 has 32 addresses, usually 30 usable hosts; subnet boundaries increment by 32.",
+    "question": "What is the network of 192.168.1.70/27?",
+    "answers": [
+      "192.168.1.64",
+      "192.168.1.32",
+      "192.168.1.70"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA IPv4 subnetting"
+  },
+  {
+    "id": 35,
+    "unit": "Network fundamentals",
+    "title": "1.7 · Private IPv4",
+    "summary": "RFC1918 blocks are 10/8, 172.16/12 and 192.168/16; they are not publicly routed.",
+    "question": "Which address is private?",
+    "answers": [
+      "172.20.1.5",
+      "172.32.1.5",
+      "8.8.8.8"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Private IPv4"
+  },
+  {
+    "id": 36,
+    "unit": "Network fundamentals",
+    "title": "1.8 · IPv6 configuration",
+    "summary": "IPv6 interfaces use prefix lengths, commonly /64 on LANs; enable routing to forward between networks.",
+    "question": "Which command enables IPv6 forwarding on IOS?",
+    "answers": [
+      "ipv6 unicast-routing",
+      "ip routing ipv6",
+      "ipv6 enable routing"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA IPv6 configuration"
+  },
+  {
+    "id": 37,
+    "unit": "Network fundamentals",
+    "title": "1.9 · IPv6 address types",
+    "summary": "Global, unique-local and link-local are unicast; multicast reaches groups; anycast reaches one instance. Modified EUI-64 inserts FFFE and flips the U/L bit.",
+    "question": "Which range identifies link-local addresses?",
+    "answers": [
+      "FE80::/10",
+      "FF00::/8",
+      "2000::/3"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA IPv6 address types"
+  },
+  {
+    "id": 38,
+    "unit": "Network fundamentals",
+    "title": "1.10 · Client IP verification",
+    "summary": "Windows ipconfig /all, macOS ifconfig and route -n get default, Linux ip addr and ip route reveal addressing and gateways.",
+    "question": "Which Linux command displays the default route?",
+    "answers": [
+      "ip route",
+      "show vlan",
+      "nslookup"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Client IP verification"
+  },
+  {
+    "id": 39,
+    "unit": "Network fundamentals",
+    "title": "1.11 · Wireless principles",
+    "summary": "SSID names a WLAN; RF carries signals; 2.4 GHz 20 MHz channels 1, 6, 11 are commonly nonoverlapping; encryption protects data.",
+    "question": "Which channel set minimizes overlap in a typical US 2.4 GHz deployment?",
+    "answers": [
+      "1, 6, 11",
+      "1, 2, 3",
+      "4, 5, 6"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Wireless principles"
+  },
+  {
+    "id": 40,
+    "unit": "Network fundamentals",
+    "title": "1.12 · Virtualization",
+    "summary": "Hypervisors run VMs; containers share a host kernel; VRFs isolate routing tables.",
+    "question": "Which mechanism isolates routing tables on one router?",
+    "answers": [
+      "VRF",
+      "SSID",
+      "PoE"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Virtualization"
+  },
+  {
+    "id": 41,
+    "unit": "Network fundamentals",
+    "title": "1.13 · Switch forwarding",
+    "summary": "Switches learn source MACs, age entries and flood unknown unicasts within the VLAN; known destinations use the MAC table.",
+    "question": "An unknown unicast arrives on VLAN 10. What happens?",
+    "answers": [
+      "Flood eligible VLAN 10 ports except ingress",
+      "Flood all VLANs",
+      "Always drop"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Switch forwarding"
+  },
+  {
     "id": 8,
     "unit": "Network access",
     "title": "Ethernet switching",
@@ -182,6 +364,132 @@
     "videoQuery": "CCNA Jeremy IT Lab Wireless architecture"
   },
   {
+    "id": 42,
+    "unit": "Network access",
+    "title": "2.1 · VLANs and inter-VLAN routing",
+    "summary": "Access ports carry data VLANs and may carry tagged voice VLANs; VLAN 1 is default; SVIs or router subinterfaces route between VLANs.",
+    "question": "Which interface can route for VLAN 20 on a multilayer switch?",
+    "answers": [
+      "interface vlan 20",
+      "interface console 20",
+      "line vty 20"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA VLANs and inter-VLAN routing"
+  },
+  {
+    "id": 43,
+    "unit": "Network access",
+    "title": "2.2 · Trunks and native VLAN",
+    "summary": "802.1Q tags VLAN traffic on trunks; native VLAN is normally untagged and should match on both ends.",
+    "question": "What is a likely issue when native VLANs differ?",
+    "answers": [
+      "Traffic misclassification",
+      "DNS TTL expiry",
+      "TCP window scaling"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Trunks and native VLAN"
+  },
+  {
+    "id": 44,
+    "unit": "Network access",
+    "title": "2.3 · CDP and LLDP",
+    "summary": "CDP is Cisco-specific; LLDP is an IEEE standard; both report directly connected neighbors.",
+    "question": "Which command displays LLDP neighbors?",
+    "answers": [
+      "show lldp neighbors",
+      "show ip nat translations",
+      "show ip route"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA CDP and LLDP"
+  },
+  {
+    "id": 45,
+    "unit": "Network access",
+    "title": "2.4 · Layer 2 and 3 EtherChannel",
+    "summary": "LACP active initiates negotiation, passive responds; links need consistent settings. Routed bundles use no switchport.",
+    "question": "Which pairing cannot initiate an LACP bundle?",
+    "answers": [
+      "Passive/passive",
+      "Active/passive",
+      "Active/active"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Layer 2 and 3 EtherChannel"
+  },
+  {
+    "id": 46,
+    "unit": "Network access",
+    "title": "2.5 · Rapid PVST+",
+    "summary": "Lowest bridge ID wins root; root and designated ports forward, alternate ports discard. PortFast accelerates edge ports; root guard, loop guard, BPDU filter and BPDU guard address distinct loop risks.",
+    "question": "Which protection disables an edge port receiving a BPDU?",
+    "answers": [
+      "BPDU guard",
+      "Root guard",
+      "BPDU filter"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Rapid PVST+"
+  },
+  {
+    "id": 47,
+    "unit": "Network access",
+    "title": "2.6 · AP modes and WLAN architecture",
+    "summary": "Autonomous APs manage locally; lightweight APs use a controller; FlexConnect supports branch deployments; monitor mode listens.",
+    "question": "Which AP mode supports local switching at a branch?",
+    "answers": [
+      "FlexConnect",
+      "Monitor",
+      "Sniffer"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA AP modes and WLAN architecture"
+  },
+  {
+    "id": 48,
+    "unit": "Network access",
+    "title": "2.7 · WLAN physical connections",
+    "summary": "APs use access or trunk links depending on deployment; WLC uplinks can carry multiple VLANs and use link aggregation.",
+    "question": "What connects a WLC to multiple VLANs on one logical link?",
+    "answers": [
+      "802.1Q trunk",
+      "Console cable",
+      "Access port in one VLAN"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA WLAN physical connections"
+  },
+  {
+    "id": 49,
+    "unit": "Network access",
+    "title": "2.8 · Management access",
+    "summary": "SSH and HTTPS encrypt management; Telnet and HTTP do not; console is local; TACACS+ and RADIUS provide AAA; cloud management is centralized remotely.",
+    "question": "Choose encrypted CLI management.",
+    "answers": [
+      "SSH",
+      "Telnet",
+      "HTTP"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Management access"
+  },
+  {
+    "id": 50,
+    "unit": "Network access",
+    "title": "2.9 · WLAN GUI interpretation",
+    "summary": "A WLAN maps SSID to a network, security policy and QoS profile; enabled status and client settings affect connectivity.",
+    "question": "Clients cannot see a newly configured SSID because the WLAN is disabled. What should you do?",
+    "answers": [
+      "Enable the WLAN",
+      "Change DNS MX record",
+      "Disable all encryption"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA WLAN GUI interpretation"
+  },
+  {
     "id": 14,
     "unit": "IP connectivity",
     "title": "Routing tables",
@@ -236,6 +544,76 @@
     ],
     "correct": 0,
     "videoQuery": "CCNA Jeremy IT Lab First hop redundancy"
+  },
+  {
+    "id": 51,
+    "unit": "IP connectivity",
+    "title": "3.1 · Reading routing tables",
+    "summary": "Codes identify source; prefix and mask identify destination; brackets commonly show distance and metric; next hop and default gateway guide forwarding.",
+    "question": "In O 10.0.0.0/24 [110/20] via 192.0.2.1, what is the metric?",
+    "answers": [
+      "20",
+      "110",
+      "24"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Reading routing tables"
+  },
+  {
+    "id": 52,
+    "unit": "IP connectivity",
+    "title": "3.2 · Forwarding decisions",
+    "summary": "Longest matching prefix wins forwarding; administrative distance selects sources for identical prefixes; protocol metric selects paths within a protocol.",
+    "question": "A /24 and /16 both match. Which wins?",
+    "answers": [
+      "/24",
+      "/16",
+      "Lowest metric regardless of prefix"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Forwarding decisions"
+  },
+  {
+    "id": 53,
+    "unit": "IP connectivity",
+    "title": "3.3 · Static IPv4 and IPv6 routes",
+    "summary": "Default routes match all; host routes use /32 or /128; floating static routes use higher administrative distance than primary routes.",
+    "question": "Which IPv6 prefix is a default route?",
+    "answers": [
+      "::/0",
+      "::/128",
+      "FE80::/10"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Static IPv4 and IPv6 routes"
+  },
+  {
+    "id": 54,
+    "unit": "IP connectivity",
+    "title": "3.4 · Single-area OSPFv2",
+    "summary": "Neighbors must agree on key parameters; point-to-point has no DR election; broadcast uses DR/BDR; router IDs must be unique.",
+    "question": "Which network type has no DR/BDR election?",
+    "answers": [
+      "Point-to-point",
+      "Broadcast",
+      "Ethernet broadcast"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Single-area OSPFv2"
+  },
+  {
+    "id": 55,
+    "unit": "IP connectivity",
+    "title": "3.5 · First-hop redundancy",
+    "summary": "HSRP and VRRP provide a virtual gateway and failover; hosts retain the virtual IP when active device changes.",
+    "question": "What IP should hosts use as their default gateway?",
+    "answers": [
+      "Virtual IP",
+      "Standby physical IP only",
+      "Loopback of every switch"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA First-hop redundancy"
   },
   {
     "id": 18,
@@ -294,6 +672,132 @@
     "videoQuery": "CCNA Jeremy IT Lab QoS and management"
   },
   {
+    "id": 56,
+    "unit": "IP services",
+    "title": "4.1 · Static and dynamic NAT",
+    "summary": "Static NAT maps one inside address to one outside address; dynamic NAT uses a pool; PAT multiplexes by ports.",
+    "question": "Which technique permits many hosts to share one public address?",
+    "answers": [
+      "PAT",
+      "Static one-to-one NAT",
+      "STP"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Static and dynamic NAT"
+  },
+  {
+    "id": 57,
+    "unit": "IP services",
+    "title": "4.2 · NTP",
+    "summary": "NTP clients synchronize to servers; lower stratum generally indicates closer reference clock; IOS can act as master in a lab.",
+    "question": "Which command configures an NTP peer server at 192.0.2.10?",
+    "answers": [
+      "ntp server 192.0.2.10",
+      "ip helper-address 192.0.2.10",
+      "logging host 192.0.2.10"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA NTP"
+  },
+  {
+    "id": 58,
+    "unit": "IP services",
+    "title": "4.3 · DHCP and DNS",
+    "summary": "DHCP leases addressing via Discover Offer Request Acknowledge; DNS resolves names and other records.",
+    "question": "A host can ping an IP but not its hostname. Which service should you investigate?",
+    "answers": [
+      "DNS",
+      "STP",
+      "LACP"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA DHCP and DNS"
+  },
+  {
+    "id": 59,
+    "unit": "IP services",
+    "title": "4.4 · SNMP",
+    "summary": "Managers poll agents using MIB objects/OIDs; traps and informs report events; SNMPv3 supports authentication and privacy.",
+    "question": "Which version supports authentication and encryption?",
+    "answers": [
+      "SNMPv3",
+      "SNMPv1",
+      "SNMPv2c"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA SNMP"
+  },
+  {
+    "id": 60,
+    "unit": "IP services",
+    "title": "4.5 · Syslog",
+    "summary": "Facility identifies source; severity 0 is emergency, 7 debugging; lower numbers are more severe.",
+    "question": "Which severity is warning?",
+    "answers": [
+      "4",
+      "7",
+      "0"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Syslog"
+  },
+  {
+    "id": 61,
+    "unit": "IP services",
+    "title": "4.6 · DHCP client and relay",
+    "summary": "A router interface can acquire an address via DHCP; relay forwards client broadcasts to a server on another subnet.",
+    "question": "Where is ip helper-address configured?",
+    "answers": [
+      "Client-facing L3 interface",
+      "DNS server console",
+      "Every switch access port"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA DHCP client and relay"
+  },
+  {
+    "id": 62,
+    "unit": "IP services",
+    "title": "4.7 · QoS behavior",
+    "summary": "Classification identifies traffic, marking labels it, queues handle congestion; policing drops or remarks excess; shaping buffers excess.",
+    "question": "Which action buffers excess traffic to smooth a rate?",
+    "answers": [
+      "Shaping",
+      "Policing",
+      "Classification"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA QoS behavior"
+  },
+  {
+    "id": 63,
+    "unit": "IP services",
+    "title": "4.8 · SSH configuration",
+    "summary": "Set hostname/domain, generate RSA keys, configure local user and VTY login local with SSH transport.",
+    "question": "Which VTY command restricts incoming management to SSH?",
+    "answers": [
+      "transport input ssh",
+      "transport input telnet",
+      "ip ssh disable"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA SSH configuration"
+  },
+  {
+    "id": 64,
+    "unit": "IP services",
+    "title": "4.9 · FTP and TFTP",
+    "summary": "FTP uses TCP and can authenticate; TFTP uses UDP and has no built-in authentication; neither inherently encrypts files.",
+    "question": "Which protocol uses UDP and simple unauthenticated transfer?",
+    "answers": [
+      "TFTP",
+      "SCP",
+      "FTP"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA FTP and TFTP"
+  },
+  {
     "id": 22,
     "unit": "Security fundamentals",
     "title": "Security concepts",
@@ -350,6 +854,146 @@
     "videoQuery": "CCNA Jeremy IT Lab Wireless security and VPNs"
   },
   {
+    "id": 65,
+    "unit": "Security fundamentals",
+    "title": "5.1 · Security concepts",
+    "summary": "Threat is potential harm; vulnerability is a weakness; exploit uses weakness; mitigation reduces risk.",
+    "question": "An unpatched service is what?",
+    "answers": [
+      "Vulnerability",
+      "Mitigation",
+      "Authentication"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Security concepts"
+  },
+  {
+    "id": 66,
+    "unit": "Security fundamentals",
+    "title": "5.2 · Security programs",
+    "summary": "Awareness training addresses social engineering; physical controls restrict access; policies define behavior.",
+    "question": "Which control reduces unauthorized server-room entry?",
+    "answers": [
+      "Badge-controlled doors",
+      "DNS cache",
+      "OSPF priority"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Security programs"
+  },
+  {
+    "id": 67,
+    "unit": "Security fundamentals",
+    "title": "5.3 · Local access control",
+    "summary": "Use enable secret, local usernames with secrets and login local; protect console and VTY.",
+    "question": "Which command defines an encrypted privileged-mode secret?",
+    "answers": [
+      "enable secret LabPass123",
+      "enable password LabPass123",
+      "hostname LabPass123"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Local access control"
+  },
+  {
+    "id": 68,
+    "unit": "Security fundamentals",
+    "title": "5.4 · Password policies",
+    "summary": "Use unique long passwords, secure management, MFA and alternatives such as certificates and biometrics.",
+    "question": "Which combines independent factors?",
+    "answers": [
+      "Password plus hardware token",
+      "Two passwords",
+      "Two PINs"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Password policies"
+  },
+  {
+    "id": 69,
+    "unit": "Security fundamentals",
+    "title": "5.5 · IPsec VPNs",
+    "summary": "Remote access connects a user; site-to-site connects networks. IPsec ESP protects payloads; tunnel mode encapsulates original IP packets, transport mode protects payload.",
+    "question": "Which VPN connects two offices?",
+    "answers": [
+      "Site-to-site",
+      "Remote access only",
+      "VLAN trunk"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA IPsec VPNs"
+  },
+  {
+    "id": 70,
+    "unit": "Security fundamentals",
+    "title": "5.6 · ACLs",
+    "summary": "Standard IPv4 ACLs match source; extended ACLs match source, destination, protocol and ports; first match wins, implicit deny ends list.",
+    "question": "Which ACL type can match TCP destination port 443?",
+    "answers": [
+      "Extended",
+      "Standard",
+      "MAC aging"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA ACLs"
+  },
+  {
+    "id": 71,
+    "unit": "Security fundamentals",
+    "title": "5.7 · Layer 2 security",
+    "summary": "DHCP snooping trusts server uplinks; DAI checks ARP against bindings; port security limits MAC addresses.",
+    "question": "Which feature validates ARP against DHCP bindings?",
+    "answers": [
+      "Dynamic ARP inspection",
+      "PortFast",
+      "NTP"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Layer 2 security"
+  },
+  {
+    "id": 72,
+    "unit": "Security fundamentals",
+    "title": "5.8 · AAA",
+    "summary": "Authentication identifies, authorization grants rights, accounting records actions. TACACS+ and RADIUS support centralized AAA.",
+    "question": "Which AAA function logs executed actions?",
+    "answers": [
+      "Accounting",
+      "Authorization",
+      "Authentication"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA AAA"
+  },
+  {
+    "id": 73,
+    "unit": "Security fundamentals",
+    "title": "5.9 · Wireless security",
+    "summary": "WPA used TKIP; WPA2 commonly uses AES-CCMP; WPA3-Personal uses SAE.",
+    "question": "Which protocol uses SAE for personal authentication?",
+    "answers": [
+      "WPA3",
+      "WPA",
+      "WEP"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Wireless security"
+  },
+  {
+    "id": 74,
+    "unit": "Security fundamentals",
+    "title": "5.10 · WPA2 WLAN setup",
+    "summary": "Create an SSID, map client VLAN, select WPA2-Personal PSK with AES, enable WLAN and test association.",
+    "question": "Which security mode uses a shared passphrase without RADIUS?",
+    "answers": [
+      "WPA2-Personal",
+      "WPA2-Enterprise",
+      "Open"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA WPA2 WLAN setup"
+  },
+  {
     "id": 26,
     "unit": "Automation and programmability",
     "title": "Controller-based networking",
@@ -390,5 +1034,509 @@
     ],
     "correct": 0,
     "videoQuery": "CCNA Jeremy IT Lab Automation tools and AI"
+  },
+  {
+    "id": 75,
+    "unit": "Automation and programmability",
+    "title": "6.1 · Network automation",
+    "summary": "Automation reduces repetitive work, improves consistency and enables validation; bad changes can propagate quickly.",
+    "question": "What reduces risk before a bulk change?",
+    "answers": [
+      "Validate and test on a small group",
+      "Skip backups",
+      "Disable logging"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Network automation"
+  },
+  {
+    "id": 76,
+    "unit": "Automation and programmability",
+    "title": "6.2 · Traditional versus controller networks",
+    "summary": "Traditional management often configures devices individually; controllers expose centralized policy and APIs.",
+    "question": "Which approach uses central policy to manage many devices?",
+    "answers": [
+      "Controller-based",
+      "Console-only",
+      "Unmanaged switching"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Traditional versus controller networks"
+  },
+  {
+    "id": 77,
+    "unit": "Automation and programmability",
+    "title": "6.3 · Software-defined networks",
+    "summary": "Underlay provides physical IP reachability; overlay tunnels logical traffic; fabric combines them. Control plane decides, data plane forwards; northbound APIs face apps, southbound face devices.",
+    "question": "Which API direction connects a controller to managed devices?",
+    "answers": [
+      "Southbound",
+      "Northbound",
+      "Loopback"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Software-defined networks"
+  },
+  {
+    "id": 78,
+    "unit": "Automation and programmability",
+    "title": "6.4 · AI and machine learning",
+    "summary": "Predictive ML estimates trends or anomalies; generative AI produces content; verify outputs and protect sensitive data.",
+    "question": "Which approach predicts future link utilization from historical data?",
+    "answers": [
+      "Predictive ML",
+      "Generative text only",
+      "Static routing"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA AI and machine learning"
+  },
+  {
+    "id": 79,
+    "unit": "Automation and programmability",
+    "title": "6.5 · REST APIs",
+    "summary": "GET reads, POST commonly creates, PUT replaces, PATCH partially updates, DELETE removes; APIs use authentication and JSON or XML encoding.",
+    "question": "Which HTTP verb reads a resource?",
+    "answers": [
+      "GET",
+      "DELETE",
+      "POST"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA REST APIs"
+  },
+  {
+    "id": 80,
+    "unit": "Automation and programmability",
+    "title": "6.6 · Ansible and Terraform",
+    "summary": "Ansible uses playbooks to automate tasks; Terraform manages desired infrastructure using declarative configuration and state.",
+    "question": "Which tool commonly runs YAML playbooks?",
+    "answers": [
+      "Ansible",
+      "Terraform",
+      "Wireshark"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Ansible and Terraform"
+  },
+  {
+    "id": 81,
+    "unit": "Automation and programmability",
+    "title": "6.7 · JSON structure",
+    "summary": "Objects use key-value pairs; arrays are ordered; strings, numbers, booleans and null are values.",
+    "question": "In {\"ports\":[1,2]}, what is the value type of ports?",
+    "answers": [
+      "Array",
+      "Boolean",
+      "String"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA JSON structure"
+  },
+  {
+    "id": 82,
+    "unit": "2027 exam refresh",
+    "title": "v2 1.1 · Physical troubleshooting",
+    "summary": "Check optical power, distance, pinout, media and error counters.",
+    "question": "A fiber link has receive power below receiver sensitivity. What is the likely issue?",
+    "answers": [
+      "Insufficient optical signal",
+      "Wrong DNS record",
+      "Wrong ACL name"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Physical troubleshooting"
+  },
+  {
+    "id": 83,
+    "unit": "2027 exam refresh",
+    "title": "v2 1.2 · Hypervisors and containers",
+    "summary": "A hypervisor virtualizes hardware; containers share the host OS kernel.",
+    "question": "Which generally shares the host kernel?",
+    "answers": [
+      "Container",
+      "Virtual machine",
+      "Physical router"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Hypervisors and containers"
+  },
+  {
+    "id": 84,
+    "unit": "2027 exam refresh",
+    "title": "v2 1.3 · IPv4 fault isolation",
+    "summary": "Check prefix, gateway, duplicates and address assignment.",
+    "question": "Host 192.168.1.10/24 uses gateway 192.168.2.1. What is wrong?",
+    "answers": [
+      "Gateway outside local subnet",
+      "DNS TTL too high",
+      "MAC address too long"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA IPv4 fault isolation"
+  },
+  {
+    "id": 85,
+    "unit": "2027 exam refresh",
+    "title": "v2 1.4 · IPv6 fault isolation",
+    "summary": "Check prefix length, router advertisements and link-local reachability; EUI-64 derives an interface ID.",
+    "question": "A host has only FE80::1. Can it normally reach a remote global IPv6 network using that source?",
+    "answers": [
+      "No, link-local scope",
+      "Yes, always",
+      "Only with TCP"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA IPv6 fault isolation"
+  },
+  {
+    "id": 86,
+    "unit": "2027 exam refresh",
+    "title": "v2 1.5 · RF interference",
+    "summary": "Band/channel choices, signal strength, encryption and interference affect WLANs.",
+    "question": "Which device can interfere with 2.4 GHz Wi-Fi?",
+    "answers": [
+      "Microwave oven",
+      "Fiber patch panel",
+      "Passive optical splitter"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA RF interference"
+  },
+  {
+    "id": 87,
+    "unit": "2027 exam refresh",
+    "title": "v2 1.6 · Client connectivity troubleshooting",
+    "summary": "Check IP, gateway, DNS, wireless association/security and use ping on Windows, macOS and Linux.",
+    "question": "A client associates but receives 169.254.5.2. Investigate what?",
+    "answers": [
+      "DHCP lease failure",
+      "OSPF DR election",
+      "SNMP trap"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Client connectivity troubleshooting"
+  },
+  {
+    "id": 88,
+    "unit": "2027 exam refresh",
+    "title": "v2 1.7 · DHCPv4 troubleshooting",
+    "summary": "Check pool exhaustion, exclusions, client settings, relay and return routes.",
+    "question": "Remote clients fail DHCP but local clients work. What is a likely cause?",
+    "answers": [
+      "Missing relay",
+      "Incorrect NTP stratum",
+      "Wrong SSH key size"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA DHCPv4 troubleshooting"
+  },
+  {
+    "id": 89,
+    "unit": "2027 exam refresh",
+    "title": "v2 2.1 · Infrastructure connectivity",
+    "summary": "Use routed ports, trunks, L2/L3 LACP and SVIs for switch/router links.",
+    "question": "An SVI is down with its VLAN absent. What must be created first?",
+    "answers": [
+      "VLAN",
+      "DNS zone",
+      "NTP pool"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Infrastructure connectivity"
+  },
+  {
+    "id": 90,
+    "unit": "2027 exam refresh",
+    "title": "v2 2.2 · Edge host connectivity",
+    "summary": "Choose VLAN, voice VLAN, PoE and LACP based on desktops, IoT, APs, phones, virtual hosts and appliances.",
+    "question": "A phone and PC share a switch port. Which setting separates phone traffic?",
+    "answers": [
+      "Voice VLAN",
+      "Native IP route",
+      "NTP authentication"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Edge host connectivity"
+  },
+  {
+    "id": 91,
+    "unit": "2027 exam refresh",
+    "title": "v2 2.3 · Discovery documentation",
+    "summary": "Compare CDP/LLDP local and remote port IDs against diagrams.",
+    "question": "Which field verifies the far-end interface?",
+    "answers": [
+      "Remote port ID",
+      "DNS TTL",
+      "OSPF cost"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Discovery documentation"
+  },
+  {
+    "id": 92,
+    "unit": "2027 exam refresh",
+    "title": "v2 2.4 · Connectivity diagnostics",
+    "summary": "Use show logs, show interfaces, ping, extended ping, traceroute and capture analysis.",
+    "question": "Which tool reveals the sequence of IP hops?",
+    "answers": [
+      "Traceroute",
+      "show vlan brief",
+      "NTP"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Connectivity diagnostics"
+  },
+  {
+    "id": 93,
+    "unit": "2027 exam refresh",
+    "title": "v2 2.5 · Rapid PVST+ configuration",
+    "summary": "Configure root priority, PortFast and guard features; inspect port roles and states.",
+    "question": "Which setting helps make a switch root for VLAN 10?",
+    "answers": [
+      "Lower bridge priority",
+      "Higher bridge priority",
+      "Higher IP TTL"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Rapid PVST+ configuration"
+  },
+  {
+    "id": 94,
+    "unit": "2027 exam refresh",
+    "title": "v2 3.1 · Next-hop interpretation",
+    "summary": "Use longest prefix match and interpret route code, AD, metric and default.",
+    "question": "A packet matches only 0.0.0.0/0. What route is used?",
+    "answers": [
+      "Default route",
+      "Host route",
+      "No route always"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Next-hop interpretation"
+  },
+  {
+    "id": 95,
+    "unit": "2027 exam refresh",
+    "title": "v2 3.2 · Static route troubleshooting",
+    "summary": "Check next-hop reachability, mask, IPv6 prefix and floating administrative distance.",
+    "question": "A backup route has lower AD than primary. What is the fault?",
+    "answers": [
+      "Backup is preferred",
+      "Backup cannot be installed ever",
+      "AD is ignored"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Static route troubleshooting"
+  },
+  {
+    "id": 96,
+    "unit": "2027 exam refresh",
+    "title": "v2 3.3 · OSPFv2 and OSPFv3",
+    "summary": "OSPFv3 supports IPv6; configure router IDs, interface areas and network type; verify adjacency and DR/BDR.",
+    "question": "Which protocol version is traditionally used for IPv6 OSPF?",
+    "answers": [
+      "OSPFv3",
+      "OSPFv1",
+      "RIPv1"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA OSPFv2 and OSPFv3"
+  },
+  {
+    "id": 97,
+    "unit": "2027 exam refresh",
+    "title": "v2 3.4 · HSRP and VRRP status",
+    "summary": "Inspect active/standby or master/backup state, virtual IP and priority.",
+    "question": "In HSRP, which state forwards for virtual gateway?",
+    "answers": [
+      "Active",
+      "Standby",
+      "Listen"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA HSRP and VRRP status"
+  },
+  {
+    "id": 98,
+    "unit": "2027 exam refresh",
+    "title": "v2 4.1 · AAA client configuration",
+    "summary": "Configure local fallback and centralized TACACS+/RADIUS servers with matching shared keys.",
+    "question": "If the AAA server is unreachable, which method can provide fallback?",
+    "answers": [
+      "Local authentication",
+      "DNS recursion",
+      "STP guard"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA AAA client configuration"
+  },
+  {
+    "id": 99,
+    "unit": "2027 exam refresh",
+    "title": "v2 4.2 · Secure file transfer",
+    "summary": "SCP and SFTP run over SSH; confirm destination, credentials and file integrity.",
+    "question": "Which transfer protocol uses SSH encryption?",
+    "answers": [
+      "SCP",
+      "TFTP",
+      "FTP"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Secure file transfer"
+  },
+  {
+    "id": 100,
+    "unit": "2027 exam refresh",
+    "title": "v2 4.3 · IOS XE NAT/PAT",
+    "summary": "Define inside/outside, match inside sources and configure static, pool or overload translation.",
+    "question": "Which keyword enables PAT on an IOS NAT rule?",
+    "answers": [
+      "overload",
+      "passive",
+      "native"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA IOS XE NAT/PAT"
+  },
+  {
+    "id": 101,
+    "unit": "2027 exam refresh",
+    "title": "v2 4.4 · DNS record diagnostics",
+    "summary": "A maps IPv4; AAAA IPv6; CNAME alias; MX mail; NS authoritative servers; PTR reverse lookup.",
+    "question": "Mail delivery fails due to incorrect mail exchanger. Which record?",
+    "answers": [
+      "MX",
+      "PTR",
+      "AAAA"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA DNS record diagnostics"
+  },
+  {
+    "id": 102,
+    "unit": "2027 exam refresh",
+    "title": "v2 4.5 · IPsec transport and tunnel",
+    "summary": "ESP can provide confidentiality and integrity; tunnel mode wraps original IP packet; transport mode preserves original IP header.",
+    "question": "Which mode encapsulates the original IP packet?",
+    "answers": [
+      "Tunnel",
+      "Transport",
+      "Access"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA IPsec transport and tunnel"
+  },
+  {
+    "id": 103,
+    "unit": "2027 exam refresh",
+    "title": "v2 4.6 · IPv4 ACL formats",
+    "summary": "Use named or numbered standard/extended ACLs, correct wildcard and interface direction.",
+    "question": "Which wildcard matches /24?",
+    "answers": [
+      "0.0.0.255",
+      "255.255.255.0",
+      "0.0.0.0"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA IPv4 ACL formats"
+  },
+  {
+    "id": 104,
+    "unit": "2027 exam refresh",
+    "title": "v2 4.7 · Switch security expansion",
+    "summary": "DHCP snooping, DAI, storm control, RA guard and port security protect edge links.",
+    "question": "Which feature blocks rogue IPv6 router advertisements?",
+    "answers": [
+      "RA guard",
+      "DAI",
+      "DHCPv4 relay"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Switch security expansion"
+  },
+  {
+    "id": 105,
+    "unit": "2027 exam refresh",
+    "title": "v2 5.1 · Agentic AI operations",
+    "summary": "Agents can plan and execute tool workflows; require approval boundaries and evidence validation.",
+    "question": "Before accepting an agent's proposed network change, do what?",
+    "answers": [
+      "Validate evidence and obtain required approval",
+      "Apply automatically everywhere",
+      "Share all secrets"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Agentic AI operations"
+  },
+  {
+    "id": 106,
+    "unit": "2027 exam refresh",
+    "title": "v2 5.2 · AI prompt selection",
+    "summary": "Specify role, task, constraints, data classification and output format; omit credentials and sensitive information.",
+    "question": "Which prompt is best for a sanitized log?",
+    "answers": [
+      "Act as network analyst; summarize errors in a table; do not invent facts",
+      "Fix everything using all passwords",
+      "Ignore the logs and guess"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA AI prompt selection"
+  },
+  {
+    "id": 107,
+    "unit": "2027 exam refresh",
+    "title": "v2 5.3 · Management approaches",
+    "summary": "Compare device, cloud, controller, automation and infrastructure-as-code management.",
+    "question": "Which approach stores desired infrastructure as version-controlled code?",
+    "answers": [
+      "Infrastructure as code",
+      "Manual console only",
+      "Unmanaged switch"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Management approaches"
+  },
+  {
+    "id": 108,
+    "unit": "2027 exam refresh",
+    "title": "v2 5.4 · SNMP operations",
+    "summary": "Poll counters and receive notifications; secure with SNMPv3 where possible.",
+    "question": "What is an unsolicited SNMP event notification?",
+    "answers": [
+      "Trap",
+      "DNS query",
+      "ARP request"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA SNMP operations"
+  },
+  {
+    "id": 109,
+    "unit": "2027 exam refresh",
+    "title": "v2 5.5 · Ansible command execution",
+    "summary": "Use inventory and network_cli with IOS command modules to execute show commands.",
+    "question": "Which module runs operational commands on Cisco IOS?",
+    "answers": [
+      "cisco.ios.ios_command",
+      "ansible.builtin.copy only",
+      "terraform plan"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Ansible command execution"
+  },
+  {
+    "id": 110,
+    "unit": "2027 exam refresh",
+    "title": "v2 5.6 · Syslog interpretation",
+    "summary": "Read timestamps, facility, severity, mnemonic and message; severity 3 indicates errors.",
+    "question": "In %LINK-3-UPDOWN, what is the severity?",
+    "answers": [
+      "3 error",
+      "7 debug",
+      "0 emergency"
+    ],
+    "correct": 0,
+    "videoQuery": "CCNA Syslog interpretation"
   }
 ]
